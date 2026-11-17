@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Marketplace">
+  <rect width="256" height="256" rx="56" fill="#03a9f4"/>
+  <!-- awning -->
+  <path d="M52 92 L68 52 H188 L204 92 Z" fill="#ffffff"/>
+  <path d="M52 92 h38 a19 19 0 0 1 -38 0 Z M90 92 h38 a19 19 0 0 1 -38 0 Z M128 92 h38 a19 19 0 0 1 -38 0 Z M166 92 h38 a19 19 0 0 1 -38 0 Z" fill="#ffffff" opacity=".85"/>
+  <!-- shop body -->
+  <path d="M64 124 V196 a8 8 0 0 0 8 8 H184 a8 8 0 0 0 8 -8 V124" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- door -->
+  <rect x="106" y="146" width="44" height="58" rx="6" fill="#ffffff"/>
+</svg>

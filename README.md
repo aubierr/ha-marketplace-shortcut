@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="Marketplace" width="128" height="128">
+</p>
+
 # Marketplace shortcut for Home Assistant
 
 Ajoute une entrée **Marketplace** dans la barre latérale de Home Assistant, à la manière de HACS.
