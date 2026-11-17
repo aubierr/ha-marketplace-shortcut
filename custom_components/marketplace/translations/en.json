@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace shortcut",
+        "description": "Add a Marketplace entry to the sidebar.",
+        "data": {
+          "title": "Sidebar title",
+          "url": "URL",
+          "icon": "Icon",
+          "mode": "Open mode",
+          "require_admin": "Admins only"
+        }
+      }
+    },
+    "error": { "invalid_url": "Invalid URL" },
+    "abort": { "already_configured": "Marketplace is already configured" }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace shortcut",
+        "data": {
+          "title": "Sidebar title",
+          "url": "URL",
+          "icon": "Icon",
+          "mode": "Open mode",
+          "require_admin": "Admins only"
+        }
+      }
+    },
+    "error": { "invalid_url": "Invalid URL" }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Inside Home Assistant (iframe)",
+        "new_tab": "New browser tab"
+      }
+    }
+  }
+}

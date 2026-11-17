@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Raccourci Marketplace",
+        "description": "Ajoute une entrée Marketplace dans la barre latérale.",
+        "data": {
+          "title": "Titre dans la barre latérale",
+          "url": "URL",
+          "icon": "Icône",
+          "mode": "Mode d'ouverture",
+          "require_admin": "Réservé aux administrateurs"
+        }
+      }
+    },
+    "error": { "invalid_url": "URL invalide" },
+    "abort": { "already_configured": "Marketplace est déjà configuré" }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Raccourci Marketplace",
+        "data": {
+          "title": "Titre dans la barre latérale",
+          "url": "URL",
+          "icon": "Icône",
+          "mode": "Mode d'ouverture",
+          "require_admin": "Réservé aux administrateurs"
+        }
+      }
+    },
+    "error": { "invalid_url": "URL invalide" }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Dans Home Assistant (iframe)",
+        "new_tab": "Nouvel onglet du navigateur"
+      }
+    }
+  }
+}
