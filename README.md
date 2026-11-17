@@ -37,6 +37,10 @@ Adds a **Marketplace** entry to the Home Assistant sidebar, the way HACS does. A
 
 Everything can be changed later with the integration's **Configure** button. Users can also hide the sidebar entry in their profile.
 
+## License
+
+MIT, see [LICENSE](LICENSE).
+
 ## Translations
 
 The configuration screens are translated into 31 languages: English, French, German, Spanish, Italian, Portuguese (PT/BR), Dutch, Polish, Russian, Ukrainian, Swedish, Norwegian, Danish, Finnish, Czech, Slovak, Hungarian, Romanian, Bulgarian, Greek, Turkish, Hebrew, Arabic, Chinese (Simplified/Traditional), Japanese, Korean, Indonesian, Vietnamese and Catalan. Missing or wrong translation? PRs are welcome (`custom_components/marketplace_shortcut/translations/`).
