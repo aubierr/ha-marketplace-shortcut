@@ -1,6 +1,6 @@
 {
   "domain": "marketplace_shortcut",
-  "name": "Marketplace",
+  "name": "Marketplace Shortcut",
   "codeowners": [],
   "config_flow": true,
   "dependencies": ["frontend", "http", "panel_custom"],
@@ -9,5 +9,5 @@
   "iot_class": "calculated",
   "issue_tracker": "https://github.com/aubierr/ha-marketplace-shortcut/issues",
   "requirements": [],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
