@@ -41,7 +41,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     mode = conf.get(CONF_MODE, DEFAULT_MODE)
     require_admin = conf.get(CONF_REQUIRE_ADMIN, False)
 
-    if mode == MODE_NEW_TAB:
+    # A path inside Home Assistant (e.g. /marketplace/browse) can't be put in an
+    # iframe (it would nest the whole frontend), so navigate to it instead.
+    if mode == MODE_NEW_TAB or url.startswith("/"):
         if not hass.data.get(_STATIC_KEY):
             await hass.http.async_register_static_paths(
                 [
