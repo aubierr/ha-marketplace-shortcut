@@ -8,6 +8,10 @@
 
 Ajoute une entrée **Marketplace** dans la barre latérale de Home Assistant, à la manière de HACS. Un chemin interne (ex. `/marketplace/browse`) ouvre directement la page dans Home Assistant.
 
+## Prérequis
+
+Home Assistant **2026.11** ou plus récent (la version qui introduit la Marketplace native).
+
 ## Installation
 
 ### Via HACS (recommandé)

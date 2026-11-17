@@ -8,6 +8,10 @@
 
 Adds a **Marketplace** entry to the Home Assistant sidebar, the way HACS does. A path inside Home Assistant (e.g. `/marketplace/browse`) opens that page directly in Home Assistant.
 
+## Requirements
+
+Home Assistant **2026.11** or newer (the release that introduced the built-in Marketplace).
+
 ## Installation
 
 ### With HACS (recommended)
