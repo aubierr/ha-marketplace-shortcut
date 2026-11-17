@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace parancsikon",
+        "description": "Marketplace elemet ad az oldalsávhoz.",
+        "data": {
+          "title": "Cím az oldalsávban",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Megnyitási mód",
+          "require_admin": "Csak rendszergazdáknak"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Érvénytelen URL"
+    },
+    "abort": {
+      "already_configured": "A Marketplace már be van állítva"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace parancsikon",
+        "data": {
+          "title": "Cím az oldalsávban",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Megnyitási mód",
+          "require_admin": "Csak rendszergazdáknak"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Érvénytelen URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "A Home Assistanton belül (iframe)",
+        "new_tab": "Új böngészőlap"
+      }
+    }
+  }
+}

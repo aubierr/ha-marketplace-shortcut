@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Comandă rapidă Marketplace",
+        "description": "Adaugă o intrare Marketplace în bara laterală.",
+        "data": {
+          "title": "Titlu în bara laterală",
+          "url": "URL",
+          "icon": "Pictogramă",
+          "mode": "Mod de deschidere",
+          "require_admin": "Doar administratori"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL nevalid"
+    },
+    "abort": {
+      "already_configured": "Marketplace este deja configurat"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Comandă rapidă Marketplace",
+        "data": {
+          "title": "Titlu în bara laterală",
+          "url": "URL",
+          "icon": "Pictogramă",
+          "mode": "Mod de deschidere",
+          "require_admin": "Doar administratori"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL nevalid"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "În Home Assistant (iframe)",
+        "new_tab": "Filă nouă de browser"
+      }
+    }
+  }
+}

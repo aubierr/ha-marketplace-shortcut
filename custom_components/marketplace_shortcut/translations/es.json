@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Acceso directo a Marketplace",
+        "description": "Añade una entrada de Marketplace a la barra lateral.",
+        "data": {
+          "title": "Título en la barra lateral",
+          "url": "URL",
+          "icon": "Icono",
+          "mode": "Modo de apertura",
+          "require_admin": "Solo administradores"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL no válida"
+    },
+    "abort": {
+      "already_configured": "Marketplace ya está configurado"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Acceso directo a Marketplace",
+        "data": {
+          "title": "Título en la barra lateral",
+          "url": "URL",
+          "icon": "Icono",
+          "mode": "Modo de apertura",
+          "require_admin": "Solo administradores"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL no válida"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Dentro de Home Assistant (iframe)",
+        "new_tab": "Nueva pestaña del navegador"
+      }
+    }
+  }
+}

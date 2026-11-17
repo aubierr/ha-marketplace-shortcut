@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Snarvei til Marketplace",
+        "description": "Legger til en Marketplace-oppføring i sidefeltet.",
+        "data": {
+          "title": "Tittel i sidefeltet",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Åpningsmodus",
+          "require_admin": "Kun administratorer"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ugyldig URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace er allerede konfigurert"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Snarvei til Marketplace",
+        "data": {
+          "title": "Tittel i sidefeltet",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Åpningsmodus",
+          "require_admin": "Kun administratorer"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ugyldig URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "I Home Assistant (iframe)",
+        "new_tab": "Ny nettleserfane"
+      }
+    }
+  }
+}

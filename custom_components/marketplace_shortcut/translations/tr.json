@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace kısayolu",
+        "description": "Kenar çubuğuna bir Marketplace girişi ekler.",
+        "data": {
+          "title": "Kenar çubuğundaki başlık",
+          "url": "URL",
+          "icon": "Simge",
+          "mode": "Açılış modu",
+          "require_admin": "Yalnızca yöneticiler"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Geçersiz URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace zaten yapılandırılmış"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace kısayolu",
+        "data": {
+          "title": "Kenar çubuğundaki başlık",
+          "url": "URL",
+          "icon": "Simge",
+          "mode": "Açılış modu",
+          "require_admin": "Yalnızca yöneticiler"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Geçersiz URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Home Assistant içinde (iframe)",
+        "new_tab": "Yeni tarayıcı sekmesi"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Zástupce Marketplace",
+        "description": "Přidá položku Marketplace do postranního panelu.",
+        "data": {
+          "title": "Název v postranním panelu",
+          "url": "URL",
+          "icon": "Ikona",
+          "mode": "Režim otevření",
+          "require_admin": "Pouze pro správce"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Neplatná adresa URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace je již nakonfigurován"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Zástupce Marketplace",
+        "data": {
+          "title": "Název v postranním panelu",
+          "url": "URL",
+          "icon": "Ikona",
+          "mode": "Režim otevření",
+          "require_admin": "Pouze pro správce"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Neplatná adresa URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Uvnitř Home Assistant (iframe)",
+        "new_tab": "Nová karta prohlížeče"
+      }
+    }
+  }
+}

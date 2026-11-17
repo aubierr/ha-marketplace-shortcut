@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace-pikakuvake",
+        "description": "Lisää Marketplace-kohteen sivupalkkiin.",
+        "data": {
+          "title": "Sivupalkin otsikko",
+          "url": "URL",
+          "icon": "Kuvake",
+          "mode": "Avaustila",
+          "require_admin": "Vain ylläpitäjät"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Virheellinen URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace on jo määritetty"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace-pikakuvake",
+        "data": {
+          "title": "Sivupalkin otsikko",
+          "url": "URL",
+          "icon": "Kuvake",
+          "mode": "Avaustila",
+          "require_admin": "Vain ylläpitäjät"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Virheellinen URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Home Assistantin sisällä (iframe)",
+        "new_tab": "Uusi selainvälilehti"
+      }
+    }
+  }
+}

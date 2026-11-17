@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ярлик Marketplace",
+        "description": "Додає пункт Marketplace до бічної панелі.",
+        "data": {
+          "title": "Назва в бічній панелі",
+          "url": "URL",
+          "icon": "Значок",
+          "mode": "Спосіб відкриття",
+          "require_admin": "Лише для адміністраторів"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Недійсна URL-адреса"
+    },
+    "abort": {
+      "already_configured": "Marketplace уже налаштовано"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ярлик Marketplace",
+        "data": {
+          "title": "Назва в бічній панелі",
+          "url": "URL",
+          "icon": "Значок",
+          "mode": "Спосіб відкриття",
+          "require_admin": "Лише для адміністраторів"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Недійсна URL-адреса"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Усередині Home Assistant (iframe)",
+        "new_tab": "Нова вкладка браузера"
+      }
+    }
+  }
+}

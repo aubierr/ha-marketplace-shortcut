@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Collegamento a Marketplace",
+        "description": "Aggiunge una voce Marketplace alla barra laterale.",
+        "data": {
+          "title": "Titolo nella barra laterale",
+          "url": "URL",
+          "icon": "Icona",
+          "mode": "Modalità di apertura",
+          "require_admin": "Solo amministratori"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL non valido"
+    },
+    "abort": {
+      "already_configured": "Marketplace è già configurato"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Collegamento a Marketplace",
+        "data": {
+          "title": "Titolo nella barra laterale",
+          "url": "URL",
+          "icon": "Icona",
+          "mode": "Modalità di apertura",
+          "require_admin": "Solo amministratori"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL non valido"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "In Home Assistant (iframe)",
+        "new_tab": "Nuova scheda del browser"
+      }
+    }
+  }
+}

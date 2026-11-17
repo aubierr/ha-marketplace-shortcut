@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Skrót do Marketplace",
+        "description": "Dodaje pozycję Marketplace do paska bocznego.",
+        "data": {
+          "title": "Tytuł na pasku bocznym",
+          "url": "URL",
+          "icon": "Ikona",
+          "mode": "Tryb otwierania",
+          "require_admin": "Tylko dla administratorów"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Nieprawidłowy adres URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace jest już skonfigurowany"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Skrót do Marketplace",
+        "data": {
+          "title": "Tytuł na pasku bocznym",
+          "url": "URL",
+          "icon": "Ikona",
+          "mode": "Tryb otwierania",
+          "require_admin": "Tylko dla administratorów"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Nieprawidłowy adres URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "W Home Assistant (iframe)",
+        "new_tab": "Nowa karta przeglądarki"
+      }
+    }
+  }
+}

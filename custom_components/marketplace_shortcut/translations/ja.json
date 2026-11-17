@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace ショートカット",
+        "description": "サイドバーに Marketplace の項目を追加します。",
+        "data": {
+          "title": "サイドバーのタイトル",
+          "url": "URL",
+          "icon": "アイコン",
+          "mode": "開き方",
+          "require_admin": "管理者のみ"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL が無効です"
+    },
+    "abort": {
+      "already_configured": "Marketplace はすでに設定されています"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace ショートカット",
+        "data": {
+          "title": "サイドバーのタイトル",
+          "url": "URL",
+          "icon": "アイコン",
+          "mode": "開き方",
+          "require_admin": "管理者のみ"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL が無効です"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Home Assistant 内 (iframe)",
+        "new_tab": "新しいブラウザタブ"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ярлык Marketplace",
+        "description": "Добавляет пункт Marketplace в боковую панель.",
+        "data": {
+          "title": "Название в боковой панели",
+          "url": "URL",
+          "icon": "Значок",
+          "mode": "Способ открытия",
+          "require_admin": "Только для администраторов"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Недопустимый URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace уже настроен"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ярлык Marketplace",
+        "data": {
+          "title": "Название в боковой панели",
+          "url": "URL",
+          "icon": "Значок",
+          "mode": "Способ открытия",
+          "require_admin": "Только для администраторов"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Недопустимый URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Внутри Home Assistant (iframe)",
+        "new_tab": "Новая вкладка браузера"
+      }
+    }
+  }
+}

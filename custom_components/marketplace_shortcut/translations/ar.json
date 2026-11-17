@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "اختصار Marketplace",
+        "description": "يضيف عنصر Marketplace إلى الشريط الجانبي.",
+        "data": {
+          "title": "العنوان في الشريط الجانبي",
+          "url": "URL",
+          "icon": "الأيقونة",
+          "mode": "وضع الفتح",
+          "require_admin": "للمسؤولين فقط"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "عنوان URL غير صالح"
+    },
+    "abort": {
+      "already_configured": "تم إعداد Marketplace بالفعل"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "اختصار Marketplace",
+        "data": {
+          "title": "العنوان في الشريط الجانبي",
+          "url": "URL",
+          "icon": "الأيقونة",
+          "mode": "وضع الفتح",
+          "require_admin": "للمسؤولين فقط"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "عنوان URL غير صالح"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "داخل Home Assistant (iframe)",
+        "new_tab": "علامة تبويب جديدة في المتصفح"
+      }
+    }
+  }
+}

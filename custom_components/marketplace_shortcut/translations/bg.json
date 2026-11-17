@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Пряк път към Marketplace",
+        "description": "Добавя елемент Marketplace в страничната лента.",
+        "data": {
+          "title": "Заглавие в страничната лента",
+          "url": "URL",
+          "icon": "Икона",
+          "mode": "Начин на отваряне",
+          "require_admin": "Само за администратори"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Невалиден URL адрес"
+    },
+    "abort": {
+      "already_configured": "Marketplace вече е конфигуриран"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Пряк път към Marketplace",
+        "data": {
+          "title": "Заглавие в страничната лента",
+          "url": "URL",
+          "icon": "Икона",
+          "mode": "Начин на отваряне",
+          "require_admin": "Само за администратори"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Невалиден URL адрес"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Вътре в Home Assistant (iframe)",
+        "new_tab": "Нов раздел в браузъра"
+      }
+    }
+  }
+}

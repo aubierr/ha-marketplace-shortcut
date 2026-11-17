@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Odkaz na Marketplace",
+        "description": "Pridá položku Marketplace do bočného panela.",
+        "data": {
+          "title": "Názov v bočnom paneli",
+          "url": "URL",
+          "icon": "Ikona",
+          "mode": "Režim otvorenia",
+          "require_admin": "Iba pre správcov"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Neplatná adresa URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace je už nakonfigurovaný"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Odkaz na Marketplace",
+        "data": {
+          "title": "Názov v bočnom paneli",
+          "url": "URL",
+          "icon": "Ikona",
+          "mode": "Režim otvorenia",
+          "require_admin": "Iba pre správcov"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Neplatná adresa URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "V rámci Home Assistant (iframe)",
+        "new_tab": "Nová karta prehliadača"
+      }
+    }
+  }
+}

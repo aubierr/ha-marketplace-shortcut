@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace-snelkoppeling",
+        "description": "Voegt een Marketplace-item toe aan de zijbalk.",
+        "data": {
+          "title": "Titel in de zijbalk",
+          "url": "URL",
+          "icon": "Pictogram",
+          "mode": "Openingsmodus",
+          "require_admin": "Alleen beheerders"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ongeldige URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace is al geconfigureerd"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace-snelkoppeling",
+        "data": {
+          "title": "Titel in de zijbalk",
+          "url": "URL",
+          "icon": "Pictogram",
+          "mode": "Openingsmodus",
+          "require_admin": "Alleen beheerders"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ongeldige URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "In Home Assistant (iframe)",
+        "new_tab": "Nieuw browsertabblad"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace 바로가기",
+        "description": "사이드바에 Marketplace 항목을 추가합니다.",
+        "data": {
+          "title": "사이드바 제목",
+          "url": "URL",
+          "icon": "아이콘",
+          "mode": "열기 방식",
+          "require_admin": "관리자 전용"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "잘못된 URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace가 이미 구성되어 있습니다"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace 바로가기",
+        "data": {
+          "title": "사이드바 제목",
+          "url": "URL",
+          "icon": "아이콘",
+          "mode": "열기 방식",
+          "require_admin": "관리자 전용"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "잘못된 URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Home Assistant 내부 (iframe)",
+        "new_tab": "새 브라우저 탭"
+      }
+    }
+  }
+}

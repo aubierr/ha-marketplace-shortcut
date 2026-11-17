@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace 快捷方式",
+        "description": "在侧边栏中添加 Marketplace 条目。",
+        "data": {
+          "title": "侧边栏标题",
+          "url": "URL",
+          "icon": "图标",
+          "mode": "打开方式",
+          "require_admin": "仅限管理员"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL 无效"
+    },
+    "abort": {
+      "already_configured": "Marketplace 已配置"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace 快捷方式",
+        "data": {
+          "title": "侧边栏标题",
+          "url": "URL",
+          "icon": "图标",
+          "mode": "打开方式",
+          "require_admin": "仅限管理员"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL 无效"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "在 Home Assistant 内（iframe）",
+        "new_tab": "新浏览器标签页"
+      }
+    }
+  }
+}

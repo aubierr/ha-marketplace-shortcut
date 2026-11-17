@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Συντόμευση Marketplace",
+        "description": "Προσθέτει μια καταχώριση Marketplace στην πλευρική γραμμή.",
+        "data": {
+          "title": "Τίτλος στην πλευρική γραμμή",
+          "url": "URL",
+          "icon": "Εικονίδιο",
+          "mode": "Τρόπος ανοίγματος",
+          "require_admin": "Μόνο για διαχειριστές"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Μη έγκυρο URL"
+    },
+    "abort": {
+      "already_configured": "Το Marketplace έχει ήδη ρυθμιστεί"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Συντόμευση Marketplace",
+        "data": {
+          "title": "Τίτλος στην πλευρική γραμμή",
+          "url": "URL",
+          "icon": "Εικονίδιο",
+          "mode": "Τρόπος ανοίγματος",
+          "require_admin": "Μόνο για διαχειριστές"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Μη έγκυρο URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Μέσα στο Home Assistant (iframe)",
+        "new_tab": "Νέα καρτέλα προγράμματος περιήγησης"
+      }
+    }
+  }
+}

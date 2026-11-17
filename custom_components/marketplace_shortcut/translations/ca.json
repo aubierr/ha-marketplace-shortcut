@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Drecera de Marketplace",
+        "description": "Afegeix una entrada de Marketplace a la barra lateral.",
+        "data": {
+          "title": "Títol a la barra lateral",
+          "url": "URL",
+          "icon": "Icona",
+          "mode": "Mode d'obertura",
+          "require_admin": "Només administradors"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL no vàlida"
+    },
+    "abort": {
+      "already_configured": "Marketplace ja està configurat"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Drecera de Marketplace",
+        "data": {
+          "title": "Títol a la barra lateral",
+          "url": "URL",
+          "icon": "Icona",
+          "mode": "Mode d'obertura",
+          "require_admin": "Només administradors"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL no vàlida"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Dins de Home Assistant (iframe)",
+        "new_tab": "Pestanya nova del navegador"
+      }
+    }
+  }
+}

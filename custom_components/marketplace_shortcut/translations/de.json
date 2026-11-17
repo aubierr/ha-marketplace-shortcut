@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace-Verknüpfung",
+        "description": "Fügt der Seitenleiste einen Marketplace-Eintrag hinzu.",
+        "data": {
+          "title": "Titel in der Seitenleiste",
+          "url": "URL",
+          "icon": "Symbol",
+          "mode": "Öffnungsmodus",
+          "require_admin": "Nur für Administratoren"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ungültige URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace ist bereits konfiguriert"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace-Verknüpfung",
+        "data": {
+          "title": "Titel in der Seitenleiste",
+          "url": "URL",
+          "icon": "Symbol",
+          "mode": "Öffnungsmodus",
+          "require_admin": "Nur für Administratoren"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ungültige URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "In Home Assistant (iframe)",
+        "new_tab": "Neuer Browser-Tab"
+      }
+    }
+  }
+}

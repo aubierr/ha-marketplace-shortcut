@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "קיצור דרך ל-Marketplace",
+        "description": "מוסיף ערך Marketplace לסרגל הצד.",
+        "data": {
+          "title": "כותרת בסרגל הצד",
+          "url": "URL",
+          "icon": "סמל",
+          "mode": "מצב פתיחה",
+          "require_admin": "מנהלים בלבד"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "כתובת URL לא חוקית"
+    },
+    "abort": {
+      "already_configured": "Marketplace כבר מוגדר"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "קיצור דרך ל-Marketplace",
+        "data": {
+          "title": "כותרת בסרגל הצד",
+          "url": "URL",
+          "icon": "סמל",
+          "mode": "מצב פתיחה",
+          "require_admin": "מנהלים בלבד"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "כתובת URL לא חוקית"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "בתוך Home Assistant (iframe)",
+        "new_tab": "לשונית חדשה בדפדפן"
+      }
+    }
+  }
+}

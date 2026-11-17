@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Genväg till Marketplace",
+        "description": "Lägger till en Marketplace-post i sidofältet.",
+        "data": {
+          "title": "Rubrik i sidofältet",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Öppningsläge",
+          "require_admin": "Endast administratörer"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ogiltig URL"
+    },
+    "abort": {
+      "already_configured": "Marketplace är redan konfigurerat"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Genväg till Marketplace",
+        "data": {
+          "title": "Rubrik i sidofältet",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Öppningsläge",
+          "require_admin": "Endast administratörer"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ogiltig URL"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "I Home Assistant (iframe)",
+        "new_tab": "Ny webbläsarflik"
+      }
+    }
+  }
+}

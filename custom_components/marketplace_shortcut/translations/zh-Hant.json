@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marketplace 捷徑",
+        "description": "在側邊欄中新增 Marketplace 項目。",
+        "data": {
+          "title": "側邊欄標題",
+          "url": "URL",
+          "icon": "圖示",
+          "mode": "開啟方式",
+          "require_admin": "僅限管理員"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL 無效"
+    },
+    "abort": {
+      "already_configured": "Marketplace 已設定"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marketplace 捷徑",
+        "data": {
+          "title": "側邊欄標題",
+          "url": "URL",
+          "icon": "圖示",
+          "mode": "開啟方式",
+          "require_admin": "僅限管理員"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL 無效"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "在 Home Assistant 內（iframe）",
+        "new_tab": "新瀏覽器分頁"
+      }
+    }
+  }
+}

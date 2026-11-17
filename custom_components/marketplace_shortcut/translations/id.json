@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pintasan Marketplace",
+        "description": "Menambahkan entri Marketplace ke bilah sisi.",
+        "data": {
+          "title": "Judul di bilah sisi",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Mode pembukaan",
+          "require_admin": "Hanya administrator"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL tidak valid"
+    },
+    "abort": {
+      "already_configured": "Marketplace sudah dikonfigurasi"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Pintasan Marketplace",
+        "data": {
+          "title": "Judul di bilah sisi",
+          "url": "URL",
+          "icon": "Ikon",
+          "mode": "Mode pembukaan",
+          "require_admin": "Hanya administrator"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL tidak valid"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Di dalam Home Assistant (iframe)",
+        "new_tab": "Tab browser baru"
+      }
+    }
+  }
+}

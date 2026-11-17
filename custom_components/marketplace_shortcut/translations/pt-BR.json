@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Atalho do Marketplace",
+        "description": "Adiciona uma entrada Marketplace à barra lateral.",
+        "data": {
+          "title": "Título na barra lateral",
+          "url": "URL",
+          "icon": "Ícone",
+          "mode": "Modo de abertura",
+          "require_admin": "Somente administradores"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL inválida"
+    },
+    "abort": {
+      "already_configured": "O Marketplace já está configurado"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Atalho do Marketplace",
+        "data": {
+          "title": "Título na barra lateral",
+          "url": "URL",
+          "icon": "Ícone",
+          "mode": "Modo de abertura",
+          "require_admin": "Somente administradores"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL inválida"
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "iframe": "Dentro do Home Assistant (iframe)",
+        "new_tab": "Nova aba do navegador"
+      }
+    }
+  }
+}
