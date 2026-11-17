@@ -4,10 +4,10 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": ["frontend", "http", "panel_custom"],
-  "documentation": "https://github.com/OWNER/ha-marketplace-shortcut",
+  "documentation": "https://github.com/aubierr/ha-marketplace-shortcut",
   "integration_type": "service",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/OWNER/ha-marketplace-shortcut/issues",
+  "issue_tracker": "https://github.com/aubierr/ha-marketplace-shortcut/issues",
   "requirements": [],
   "version": "1.0.0"
 }
