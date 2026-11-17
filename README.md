@@ -4,7 +4,19 @@ Ajoute une entrée **Marketplace** dans la barre latérale de Home Assistant, à
 
 ## Installation
 
-1. Copier `custom_components/marketplace` dans le dossier `config/custom_components/` (ou ajouter ce dépôt comme dépôt personnalisé HACS).
+### Via HACS (recommandé)
+
+[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aubierr&repository=ha-marketplace-shortcut&category=integration)
+
+1. Cliquer sur le bouton ci-dessus (ou dans HACS : **⋮ → Dépôts personnalisés**, URL `https://github.com/aubierr/ha-marketplace-shortcut`, catégorie *Integration*).
+2. Télécharger **Marketplace**, puis redémarrer Home Assistant.
+3. Ajouter l'intégration :
+
+   [![Ajouter l'intégration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=marketplace)
+
+### Manuellement
+
+1. Copier `custom_components/marketplace` dans le dossier `config/custom_components/`.
 2. Redémarrer Home Assistant.
 3. **Paramètres → Appareils et services → Ajouter une intégration → Marketplace**.
 
