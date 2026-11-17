@@ -1,6 +1,6 @@
 """Constants for the Marketplace integration."""
 
-DOMAIN = "marketplace"
+DOMAIN = "marketplace_shortcut"
 
 CONF_TITLE = "title"
 CONF_URL = "url"
@@ -19,4 +19,4 @@ DEFAULT_URL = "/marketplace/browse?sort=last_updated&direction=desc&group=status
 
 # Must differ from "/marketplace": HA serves every sub-path of a panel URL with the frontend.
 PANEL_URL_PATH = "marketplace-shortcut"
-STATIC_URL = "/marketplace_static"
+STATIC_URL = "/marketplace_shortcut_static"

@@ -12,11 +12,11 @@ Ajoute une entrée **Marketplace** dans la barre latérale de Home Assistant, à
 2. Télécharger **Marketplace**, puis redémarrer Home Assistant.
 3. Ajouter l'intégration :
 
-   [![Ajouter l'intégration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=marketplace)
+   [![Ajouter l'intégration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=marketplace_shortcut)
 
 ### Manuellement
 
-1. Copier `custom_components/marketplace` dans le dossier `config/custom_components/`.
+1. Copier `custom_components/marketplace_shortcut` dans le dossier `config/custom_components/`.
 2. Redémarrer Home Assistant.
 3. **Paramètres → Appareils et services → Ajouter une intégration → Marketplace**.
 
