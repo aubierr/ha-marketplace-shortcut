@@ -1,4 +1,4 @@
-"""Marketplace: adds a sidebar entry (like HACS) pointing to a configurable URL."""
+"""Marketplace: adds a sidebar entry pointing to a configurable URL."""
 
 from __future__ import annotations
 

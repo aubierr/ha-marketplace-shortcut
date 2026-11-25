@@ -6,7 +6,7 @@
 
 🇬🇧 English · 🇫🇷 [Français](README.fr.md)
 
-Adds a **Marketplace** entry to the Home Assistant sidebar, the way HACS does. A path inside Home Assistant (e.g. `/marketplace/browse`) opens that page directly in Home Assistant.
+Adds a **Marketplace** entry to the Home Assistant sidebar. A path inside Home Assistant (e.g. `/marketplace/browse`) opens that page directly in Home Assistant.
 
 ## Requirements
 
@@ -14,12 +14,14 @@ Home Assistant **2026.11** or newer (the release that introduced the built-in Ma
 
 ## Installation
 
-### With HACS (recommended)
+### With the Marketplace (recommended)
 
-[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aubierr&repository=ha-marketplace-shortcut&category=integration)
+The built-in Marketplace replaces HACS. This integration is added as a custom repository, which requires [connecting GitHub](https://www.home-assistant.io/integrations/marketplace/#connecting-github) to the Marketplace.
 
-1. Click the button above (or in HACS: **⋮ → Custom repositories**, URL `https://github.com/aubierr/ha-marketplace-shortcut`, category *Integration*).
-2. Download **Marketplace Shortcut**, then restart Home Assistant.
+[![Open in the Marketplace](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=aubierr&repository=ha-marketplace-shortcut&category=integration)
+
+1. Click the button above. Or go to **Settings → Marketplace → Add from link**, enter `https://github.com/aubierr/ha-marketplace-shortcut` and select **Add**.
+2. Install **Marketplace Shortcut**, then restart Home Assistant.
 3. Add the integration:
 
    [![Add integration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=marketplace_shortcut)
